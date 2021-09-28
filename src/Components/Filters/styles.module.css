@@ -1,0 +1,38 @@
+.filters {
+    position: fixed;
+    width: 350px;
+    width: fit-content;
+    padding: 20px;
+    left: 20px;
+    top: 300px;
+    color: white;
+}
+.filters__price input {
+    width: 130px;
+    margin: 10px 10px 0 0;
+}
+.filters__colors {
+    height: 220px;
+    overflow-y: scroll;
+    padding: 20px 0 ;
+    border-top: solid 1px rgb(184, 184, 184);
+    font-size: 18px;
+}
+.filters__colors input[type='checkbox'] {
+    transform: scale(1.5);
+    margin-inline-end: 15px;
+    margin-top: 12px;
+}
+
+.filters__rating {
+    height: 220px;
+    padding: 10px 0 ;
+    margin-top: 20px;
+    border-top: solid 1px rgb(184, 184, 184);
+    font-size: 18px;
+}
+
+.filters__rating-btn{
+    background: none;
+    border: none;
+}

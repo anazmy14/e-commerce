@@ -2,7 +2,7 @@
 React: Frontend React app
 
 ## Folder structure
-e-commerce/src
+e-commerce/src <br/>
 ├── actions    # redux actions <br/>
 ├── assets     # images  <br/>
 ├── Components # contains 3 main components (Categories, Filters, Products) <br/>

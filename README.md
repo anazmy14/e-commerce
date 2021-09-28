@@ -3,12 +3,12 @@ React: Frontend React app
 
 ## Folder structure
 e-commerce/src
-├── actions    # redux actions
-├── assets     # images  
-├── Components # contains 3 main components (Categories, Filters, Products)
-├── constants  # contans action types and end points to avoid spelling errors 
-├── reducers   # redux reducers
-├── store.js   # redux store
+├── actions    # redux actions <br/>
+├── assets     # images  <br/>
+├── Components # contains 3 main components (Categories, Filters, Products) <br/>
+├── constants  # contans action types and end points to avoid spelling errors <br/>
+├── reducers   # redux reducers <br/>
+├── store.js   # redux store <br/>
 
 
 

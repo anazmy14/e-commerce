@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
 import Product from './Product'
+import {PRODUCTS_API} from '../../constants/api'
 import styles from './style.module.css'
 const ProductsList = () => {
     const [allProducts, setAllProducts] = useState([]);
@@ -19,7 +20,7 @@ const ProductsList = () => {
 
     async function fetchProducts() {
         try {
-            const result = await axios.get('http://test-api.edfa3ly.io/product')
+            const result = await axios.get(PRODUCTS_API)
             setAllProducts(result.data)
             setSelectedProducts(result.data)
         } catch (error) {

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import Category from './Category';
+import { CATEGORIES_API } from '../../constants/api';
 import styles from './styles.module.css'
 
 const CategoryList = () => {
@@ -11,7 +12,7 @@ const CategoryList = () => {
 
     async function fetchCategories () {
         try {
-            const result = await axios.get('http://test-api.edfa3ly.io/category')
+            const result = await axios.get(CATEGORIES_API)
             setCategories(result.data) 
         }catch(error) {
             //handle error 

@@ -1,4 +1,4 @@
-#Technologies
+## Technologies
 React: Frontend React app
 
 

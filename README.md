@@ -1,3 +1,5 @@
+### An e-commerce prototype
+
 ## Technologies
 React: Frontend React app
 

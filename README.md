@@ -10,5 +10,16 @@ e-commerce/src <br/>
 ├── reducers   # redux reducers <br/>
 ├── store.js   # redux store <br/>
 
+## components 
+
+| Component     | Description   |
+| ------------- | ------------- |
+| src/App.js    | root component renders hopme page |
+| src/Components/Categories | renders categories list |
+| src/Components/Products | renders products list |
+| src/Components/Filters | renders filters |
+
+
+
 
 

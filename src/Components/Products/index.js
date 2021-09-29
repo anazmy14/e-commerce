@@ -13,7 +13,6 @@ const ProductsList = () => {
 
     useEffect(() =>{
          //setSelectedProducts( allProducts.filter(product => product.categoryId === filter.categoryId))
-         console.log(filter)
          setSelectedProducts( allProducts.filter(filterProducts))
         }
         , [filter])

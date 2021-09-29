@@ -19,7 +19,7 @@ currently we break the app into only 3 main components (Categories, Filters, Pro
 ## Components 
 
 | Component     | Description   |
-| ------------- | ------------- |
+| --------------| ------------- |
 | src/App.js    | root component to render home page |
 | src/Components/Categories | renders categories list |
 | src/Components/Products | renders products list |

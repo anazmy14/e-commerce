@@ -10,7 +10,7 @@
     z-index: 1;
     width: 100%;
     height: 320px;
-    background-color: var(--bs-body-bg);
+    background-color: var(--bs-purple);
 }
 .body-section{
     margin-top: 320px;
